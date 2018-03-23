@@ -49,7 +49,8 @@
                   firstname: "${firstName}",
                   lastname: "${lastName}",
                   name: "${firstName} ${lastName}",
-                }
+                },
+                customization: ${onlyofficeCustomization}
             },
             events: {
             },

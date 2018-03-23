@@ -69,6 +69,7 @@ public class Prepare extends AbstractWebScript {
             responseJson.put("docUrl", contentUrl);
             responseJson.put("callbackUrl", callbackUrl);
             responseJson.put("onlyofficeUrl", globalProp.getOrDefault("onlyoffice.url", "http://127.0.0.1/"));
+            responseJson.put("onlyofficeCustomization", globalProp.getOrDefault("onlyoffice.customization", "{}"));
             responseJson.put("key", key);
             responseJson.put("docTitle", properties.get(ContentModel.PROP_NAME));
 
