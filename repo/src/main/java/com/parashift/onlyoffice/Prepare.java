@@ -71,6 +71,7 @@ public class Prepare extends AbstractWebScript {
             responseJson.put("onlyofficeUrl", globalProp.getOrDefault("onlyoffice.url", "http://127.0.0.1/"));
             responseJson.put("key", key);
             responseJson.put("docTitle", properties.get(ContentModel.PROP_NAME));
+            responseJson.put("lang", globalProp.getOrDefault("onlyoffice.lang", "en"));
 
             logger.debug("Sending JSON prepare object");
             logger.debug(responseJson.toString(3));
