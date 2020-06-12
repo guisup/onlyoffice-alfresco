@@ -61,7 +61,7 @@
      </bean>
 
     <bean id="evaluator.doclib.action.isOnlyEdit" parent="evaluator.doclib.action.propertyNotNull">
-        <property name="property" value=":onlyoffice:editing-hash"/>
+        <property name="property" value="onlyoffice:editing-hash"/>
     </bean>
 
     <bean id="evaluator.doclib.action.allowOnlyofficeEdit" parent="evaluator.doclib.action.chainedMatchOne">
